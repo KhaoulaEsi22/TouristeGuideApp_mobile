@@ -1,16 +1,44 @@
-# TouristeGuideApp_mobile
-C2C Personal Project Application for communication between guides and tourists in morocco
+# 📱 TouristeGuideApp_mobile
 
-*We will use*
-Java 17
-Maven
-PostgreSQL (ou autre DB configurée)
+## 📌 Project Overview
+**TouristeGuideApp_mobile** is a C2C personal application designed to facilitate **communication between tourists and local guides in Morocco**.
 
-*Steps*
-Backend run(branch main) : mvn clean install mvn spring-boot:run
+The application aims to provide a simple and intuitive platform where tourists can find guides, exchange information, and organize guided experiences.
 
-Frontend run with react native(branch master) : npm install npx expo start -c
+This repository contains the **updated version of the application**.
 
-Database: MySQL/ NAME = khaouladb / 
+---
 
-Author: Messas Khaoula (this repository is for the updated version of the app)
+## 🏗️ Project Architecture
+The project follows a **client–server architecture** with:
+- A **Backend API**
+- A **Mobile Frontend application**
+
+---
+
+## ⚙️ Technologies Used
+
+### Backend
+- Java 17  
+- Spring Boot  
+- Maven  
+- PostgreSQL *(or another configured relational database)*  
+
+### Frontend (Mobile)
+- React Native  
+- Expo  
+
+### Database
+- MySQL  
+- Database name: `khaouladb`
+
+---
+
+## 🚀 How to Run the Project
+
+### 🔹 Backend
+**Branch:** `main`
+
+```bash
+mvn clean install
+mvn spring-boot:run
